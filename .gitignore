@@ -29,8 +29,9 @@
 .fullsource_nt
 .svn
 CVS
-
+*.lck
 *.log
 *.tmp
 tmp
 classes
+temp
