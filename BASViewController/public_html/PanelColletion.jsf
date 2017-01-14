@@ -8,7 +8,7 @@
                 <af:gridRow height="50px" id="gr1">
                     <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc2">
                         <!-- Header -->
-                        <af:outputText value="Panel Collection" id="ot1"/>
+                        <af:outputText value="Panel Collection Skin Test" id="ot1" inlineStyle="font-size:x-large;"/>
                     </af:gridCell>
                 </af:gridRow>
                 <af:gridRow height="100%" id="gr2">
@@ -95,7 +95,7 @@
                                 </af:panelCollection>
                             </f:facet>
                             <f:facet name="second">
-                                <af:panelCollection id="pc2">
+                                <af:panelCollection id="pc2" featuresOff="detachToolbarItem viewMenu">
                                     <f:facet name="menus"/>
                                     <f:facet name="toolbar"/>
                                     <af:table value="#{bindings.EmployeesView11.collectionModel}" var="row" rows="#{bindings.EmployeesView11.rangeSize}"
