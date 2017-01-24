@@ -16,7 +16,7 @@
                         <!-- Content -->
                         <af:panelSplitter id="ps1" orientation="vertical">
                             <f:facet name="first">
-                                <af:panelCollection id="pc1">
+                                <af:panelCollection id="pc1" styleClass="myPCClass">
                                     <f:facet name="menus"/>
                                     <f:facet name="toolbar"/>
                                     <af:table value="#{bindings.EmployeesView1.collectionModel}" var="row" rows="#{bindings.EmployeesView1.rangeSize}"
