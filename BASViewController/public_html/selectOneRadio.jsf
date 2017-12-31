@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="SelectOneRadio.jsf" id="d1">
+        <af:form id="f1">
+            <af:panelGridLayout id="pgl1">
+                <af:gridRow height="50px" id="gr1">
+                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1">
+                        <!-- Header -->
+                        <af:outputText value="SelectOneRadio Vertical Adjustment" id="ot1" inlineStyle="font-size:x-large;"/>
+                    </af:gridCell>
+                </af:gridRow>
+                <af:gridRow height="100%" id="gr2">
+                    <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc2">
+                        <!-- Content -->
+                        <af:selectOneRadio label="Label 1" id="sor1">
+                            <af:selectItem label="aaaaaaa" value="a" id="si1"/>
+                            <af:selectItem label="bbbbbbb" value="b" id="si2"/>
+                            <af:selectItem label="ccccccc" value="c" id="si3"/>
+                        </af:selectOneRadio>
+                        <af:spacer width="10" height="10" id="s1"/>
+                        <af:selectOneRadio label="Label 2" id="sor2" styleClass="mysor">
+                            <af:selectItem label="111111" value="1" id="si4"/>
+                            <af:selectItem label="222222" value="2" id="si5"/>
+                            <af:selectItem label="333333" value="3" id="si6"/>
+                        </af:selectOneRadio>
+                    </af:gridCell>
+                </af:gridRow>
+            </af:panelGridLayout>
+        </af:form>
+    </af:document>
+</f:view>

@@ -6,3 +6,9 @@
 af|panelCollection.myPCClass div[id$='_qbeTbr'] {
     display: none;
 }
+
+
+.mysor af|selectOneRadio::content div {
+    padding: 0px 0px 10px 0px; 
+}
+

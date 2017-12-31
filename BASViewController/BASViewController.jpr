@@ -190,6 +190,24 @@
          </list>
       </hash>
    </hash>
+   <hash n="oracle.jdeveloper.runner.RunConfigurations">
+      <hash n="runConfigurationDefinitions">
+         <hash n="SelectOneRadio">
+            <value n="custom" v="false"/>
+            <value n="name" v="SelectOneRadio"/>
+            <hash n="oracle.adfdt.controller.adfc.source.runner.AdfcRunnerLaunchSettings">
+               <value n="unboundedTaskFlow" v="true"/>
+               <value n="viewActivityId" v="selectOneRadio"/>
+            </hash>
+            <value n="runActiveFile" v="false"/>
+            <url n="targetURL" path="public_html/WEB-INF/adfc-config.xml"/>
+         </hash>
+      </hash>
+      <list n="runConfigurationList">
+         <string v="Default"/>
+         <string v="SelectOneRadio"/>
+      </list>
+   </hash>
    <hash n="oracle.jdevimpl.config.JProjectLibraries">
       <list n="exportedReferences">
          <hash>

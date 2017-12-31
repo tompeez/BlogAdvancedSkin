@@ -3,4 +3,7 @@
   <view id="PanelColletion">
     <page>/PanelColletion.jsf</page>
   </view>
+  <view id="selectOneRadio">
+    <page>/selectOneRadio.jsf</page>
+  </view>
 </adfc-config>
